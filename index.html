@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <title>Advice Generator</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+
+    <body class="flex bg-dark-blue">
+        <div class="flex-container">
+            <h5 id="advice-no" class="text-green ff-sans-serif uppercase"></h5>
+            <p id="advice" class="advice text-cyan ff-sans-serif"></p>
+            <img
+                src="./images/pattern-divider-desktop.svg"
+                alt="pattern divider"
+                class="divider-img-desktop"
+            />
+            <img
+                src="./images/pattern-divider-mobile.svg"
+                alt="pattern divider mobile"
+                class="divider-img-mobile"
+            />
+            <button id="btn" type="button" class="advice-btn">
+                <img
+                    src="./images/icon-dice.svg"
+                    alt="dice icon"
+                    class="dice"
+                />
+            </button>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
